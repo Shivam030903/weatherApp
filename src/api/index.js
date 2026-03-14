@@ -1,4 +1,4 @@
-const baseURL = "http://api.weatherapi.com/v1/current.json?key=0e255978d1824106bcd170235261403"
+const baseURL = `https://api.weatherapi.com/v1/current.json?key=${import.meta.env.VITE_WEATHER_API_KEY}`
 
 export const getWeatherDataForCity = async (city) =>{
 

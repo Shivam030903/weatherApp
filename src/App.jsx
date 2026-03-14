@@ -15,7 +15,7 @@ const App = () => {
   useEffect(()=>{
     // Get Currrent location here
     weather.fetchCurrentUserLocationData()
-  })
+  },[])
   
   return (
     <div>
